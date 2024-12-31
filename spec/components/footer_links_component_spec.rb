@@ -2,7 +2,7 @@
 
 require "rails_helper"
 
-RSpec.describe FooterLinksComponent, type: :component do
+RSpec.describe FooterLinksComponent, type: :component do#useless sa lgra ye file to 
   include ViewComponent::TestHelpers
 
   let(:user) { instance_double(User, id: 1) }

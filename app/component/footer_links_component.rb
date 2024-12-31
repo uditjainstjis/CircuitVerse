@@ -8,7 +8,7 @@ class FooterLinksComponent < ViewComponent::Base
 
   def left_column_links
     [
-      { url: "/simulator", text: "layout.link_to_simulator" },
+      { url: "/simulator", text: "layout.link_to_simulator" },#this is the code to be changed area/placeholder area where text is getting filled
       { url: "/learn", text: "layout.link_to_learn_more", target: "_blank" },
       { url: "https://blog.circuitverse.org", text: "layout.link_to_blog", target: "_blank" },
       { url: "/examples", text: "layout.footer.link_to_examples" },
