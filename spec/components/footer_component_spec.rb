@@ -9,7 +9,7 @@ RSpec.describe FooterComponent, type: :component do
 
   it "renders the footer with all components" do
     render_inline(described_class.new(current_user: user))
-
+    
     expect(page).to have_css(".footer-container")
     expect(page).to have_css(".footer-logo")
     expect(page).to have_css(".footer-social-icon-text")
